@@ -1,0 +1,59 @@
+/* @font-face {
+    font-family: ;
+    src: url();
+} */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ---------------HEADER------------- */
+
+.header-logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+  color: #111;
+}
+
+.header-logo-italic {
+  font-style: italic;
+}
+
+.header-menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: #111;
+}
+
+/* ---------------HEADER------------- */
+
+/* ---------------HERO------------- */
+
+.hero {
+}
+
+.hero-title {
+}
+
+.hero-btn {
+}
+
+.hero-anchor-link {
+}
+
+.hero-scroll-link {
+}
+
+/* ---------------HERO------------- */
