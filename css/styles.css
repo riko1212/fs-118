@@ -5,10 +5,13 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+  background: #fafafa;
 }
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -17,6 +20,23 @@ a {
 
 button {
   cursor: pointer;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.container {
+  width: 1166px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
 .section-title {
@@ -34,6 +54,11 @@ button {
 }
 
 /* ---------------HEADER------------- */
+
+.header {
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
 
 .header-logo {
   font-weight: 700;
@@ -66,6 +91,12 @@ button {
 
 .hero {
   background-color: #1e1823;
+  border-radius: 30px;
+  margin-bottom: 72px;
+}
+
+.hero-wrapper {
+  padding: 375px 40px 40px 40px;
 }
 
 .hero-title {
@@ -74,6 +105,7 @@ button {
   line-height: 1.21;
   letter-spacing: -0.03em;
   color: #fff;
+  margin-bottom: 32px;
 }
 
 .hero-btn {
@@ -102,9 +134,13 @@ button {
 
 .features {
   background-color: #1e1823;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .features-list {
+  padding-left: 36px;
+  padding-right: 36px;
 }
 
 .features-item {
@@ -114,6 +150,7 @@ button {
   font-weight: 600;
   font-size: 18px;
   color: #fff;
+  margin-bottom: 18px;
 }
 
 .features-item-text {
@@ -128,9 +165,12 @@ button {
 /* ---------------TASTE------------- */
 
 .taste {
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 
 .taste-title {
+  margin-bottom: 28px;
 }
 
 .taste-text {
@@ -139,12 +179,18 @@ button {
   letter-spacing: -0.02em;
   text-align: center;
   color: #111;
+  margin-bottom: 50px;
 }
 
 .taste-list {
 }
 
 .taste-item {
+  border: 1px solid #fd9222;
+  border-radius: 15px;
+  width: 270px;
+  height: 270px;
+  padding: 28px 32px;
 }
 
 .taste-image {
@@ -164,12 +210,21 @@ button {
 /* ---------------MADE------------- */
 
 .made {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .made-title {
+  margin-bottom: 50px;
 }
 
 .made-image {
+}
+
+.made-content {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 32px;
 }
 
 .made-subtitle {
@@ -177,12 +232,18 @@ button {
   font-size: 18px;
   line-height: 1.33;
   color: #111;
+  margin-bottom: 28px;
 }
 
 .made-list {
 }
 
 .made-item {
+  margin-bottom: 24px;
+}
+
+.made-item:last-child {
+  margin-bottom: 0;
 }
 
 .made-item-text {
