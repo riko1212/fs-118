@@ -1,0 +1,437 @@
+/* @font-face {
+    font-family: ;
+    src: url();
+} */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #fafafa;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  width: 1166px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
+}
+
+.accent {
+  color: #fd9222;
+}
+
+/* ---------------HEADER------------- */
+
+.header {
+}
+
+.header-navigation {
+  display: flex;
+  gap: 90px;
+  /* justify-content: space-between; */
+}
+
+.header-logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+  color: #111;
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+
+.header-logo-italic {
+  font-style: italic;
+}
+
+.header-menu-list {
+  display: flex;
+  /* margin-left: auto; */
+  gap: 24px;
+}
+
+.header-menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: #111;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  display: inline-block;
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: #fd9222;
+}
+
+.list {
+  display: flex;
+  gap: 24px;
+  /* margin-left: auto; */
+  a {
+    display: inline-block;
+    padding-top: 28px;
+    padding-bottom: 28px;
+  }
+}
+
+/* .header .container {
+  display: flex;
+} */
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ---------------HEADER------------- */
+
+/* ---------------HERO------------- */
+
+.hero {
+  background-color: #1e1823;
+  border-radius: 30px;
+  margin-bottom: 72px;
+}
+
+.hero-wrapper {
+  padding: 375px 40px 40px 40px;
+}
+
+.hero-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.03em;
+  color: #fff;
+  margin-bottom: 32px;
+  max-width: 484px;
+  /* margin: 0 auto;
+  text-align: center; */
+  /* width: 500px; */
+}
+
+.hero-btn {
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 100px;
+  background-color: #fd9222;
+  padding: 14px 40px;
+  border: none;
+  margin-right: 14px;
+}
+
+.hero-anchor-link {
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 100px;
+  background-color: transparent;
+  padding: 14px 40px;
+  border: 1px solid #fff;
+}
+
+.hero-scroll-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.03em;
+  color: #fff;
+  margin-left: auto;
+}
+
+.hero-buttons {
+  display: flex;
+  align-items: center;
+  /* gap: 14px; */
+}
+
+/* ---------------HERO------------- */
+
+/* ---------------FEATURES------------- */
+
+.features {
+  background-color: #1e1823;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.features-list {
+  padding-left: 36px;
+  padding-right: 36px;
+  display: flex;
+  gap: 70px;
+}
+
+.features-item {
+  flex-basis: calc((100% - 140px) / 3);
+}
+
+.features-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 18px;
+}
+
+.features-item-text {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* ---------------FEATURES------------- */
+
+/* ---------------TASTE------------- */
+
+.taste {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  display: flex;
+}
+
+.taste-title {
+  max-width: 411px;
+  margin: 0 auto;
+  margin-bottom: 28px;
+}
+
+.taste-text {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #111;
+  max-width: 486px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.taste-list {
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 24px 19px; */
+  column-gap: 19px;
+  row-gap: 24px;
+}
+
+.taste-item {
+  border: 1px solid #fd9222;
+  border-radius: 15px;
+  padding: 28px 32px;
+  width: calc((100% - 57px) / 4);
+}
+
+.taste-image {
+}
+
+.taste-subtitle {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #111;
+}
+
+/* ---------------TASTE------------- */
+
+/* ---------------MADE------------- */
+
+.made {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.made-title {
+  margin-bottom: 50px;
+}
+
+.made-image {
+}
+
+.made-content {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 32px;
+}
+
+.made-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #111;
+  margin-bottom: 28px;
+}
+
+.made-list {
+}
+
+.made-item {
+  margin-bottom: 24px;
+}
+
+.made-item:last-child {
+  margin-bottom: 0;
+}
+
+.made-item-text {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #111;
+}
+
+/* ---------------MADE------------- */
+
+.review {
+}
+
+.review-title {
+}
+
+.review-list {
+}
+
+.review-item {
+}
+
+.review-image {
+}
+
+.review-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  text-align: center;
+  color: #111;
+}
+
+.review-item-text {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(17, 17, 17, 0.7);
+}
+
+.review-btn {
+  font-weight: 600;
+  font-size: 18px;
+  color: #111;
+}
+
+.footer {
+  background-color: #1e1823;
+}
+.footer-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21429;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+.footer-subtitle {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #fff;
+}
+
+.footer-address {
+  font-style: normal;
+}
+
+.footer-address-list {
+}
+
+.footer-address-item {
+}
+
+.footer-address-link {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fff;
+}
+
+.footer-menu-list {
+}
+
+.footer-menu-item {
+}
+
+.footer-menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+/* 
+.taste-title .accent {
+  color: orange;
+}
+
+.made-title .accent {
+  color: green;
+}
+
+.review-title .accent {
+  color: rgb(30, 0, 128);
+} */
